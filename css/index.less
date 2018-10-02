@@ -1,0 +1,108 @@
+@import 'adapter.less';
+@import 'base.css';
+
+// 头部 start
+header{
+    background-color: #efeff0;
+    // width: 100%;
+    height: 45/32rem;
+    .fl{
+        font-size: 14/32rem;
+        padding-left: 12/32rem;
+        line-height: 45/32rem;
+    }
+    .fr{
+        line-height: 45/32rem;
+        li{
+            float: left;
+            margin: 0 6/32rem;
+        }
+    }
+}
+// 搜索 start 
+nav{
+    width: 100%;
+    height: 95/32rem;
+    line-height: 95/32rem;
+    background-color: #0099ff;
+    position: relative;
+    .search{
+        margin: 0 auto;
+        width: 528/32rem;
+        height: 48/32rem;
+        position: relative;
+        input{
+            width: 528/32rem;
+            height: 48/32rem;
+            line-height: 48/32rem;
+            background-color: #0099ff;
+            border: 2/32rem solid white;
+            color: white;
+            padding-left: 50/32rem;
+            // margin-left: -30/32rem;
+            font-size: 18/32rem;
+        }
+        .icon-fangdajing{
+            position: absolute;
+            top: 8/32rem;
+            left: 10/32rem;
+            color: white;
+            font-size:28/32rem;
+        }
+    }
+    .icon-dz-dingwei,
+    .location,
+    .Scan,
+    .icon-scan-o{       
+        position: absolute;
+        color: white;
+        width: 100/32rem;
+    }
+    .icon-dz-dingwei,
+    .icon-scan-o{
+        top: -10/32rem;
+        height: 64/32rem;
+        font-size: 48/32rem;
+    }
+    .icon-dz-dingwei{
+        left: 60/32rem;
+    }
+    .icon-scan-o{
+        right: 0;
+    }
+    .Scan,
+    .location{
+        top: 26/32rem;
+        height: 20/32rem;
+        font-size: 14/32rem;
+    }
+    .location{
+        left: 50/32rem;
+    }
+    .Scan{
+        right: 24/32rem;
+    }
+}
+
+// 商家分类 start
+.classify{
+    .business{
+        background: white;
+        height: 80/32rem;
+        line-height: 80/32rem;
+        padding-left: 20/32rem;
+        i{
+            color: #0099ff;
+            font-size: 50/32rem;
+        }
+        span{
+            font-size: 40/32rem;
+        }
+    }
+    .mui-content{
+        background-color: #fff;
+        span{
+            font-size: 100/32rem;
+        }
+    }
+}
